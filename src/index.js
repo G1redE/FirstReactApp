@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FirstAssignment from './components/firstassignment';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FirstAssignment />
   </React.StrictMode>,
   document.getElementById('root')
 );
